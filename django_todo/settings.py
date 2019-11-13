@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = ['8080-bf55d037-c205-4f42-9001-8ee4c9f917c8.ws-eu01.gitpod.io',
+ALLOWED_HOSTS = ['localhost',
 os.environ.get('GITPOD_WORKSPACE_URL'),
 os.environ.get('HOSTNAME')]
 # Application definition
