@@ -27,8 +27,8 @@ SECRET_KEY = 'g&fipcb)-mq_ca41ifg#zz0s10ywug*7eg_d#gp$e^-^r8vion'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environment.get('GITPOD_WORKSPACE_URL'),
-                os.environment.get('HOSTNAME')]
+ALLOWED_HOSTS = [os.environ.get('GITPOD_WORKSPACE_URL'),
+                os.environ.get('HOSTNAME')]
 
 
 # Application definition
