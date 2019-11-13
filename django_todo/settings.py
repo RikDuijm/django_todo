@@ -27,7 +27,8 @@ SECRET_KEY = 'g&fipcb)-mq_ca41ifg#zz0s10ywug*7eg_d#gp$e^-^r8vion'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost',
+                'simple-django-todo-rik.herokuapp.com']
 
 
 # Application definition
